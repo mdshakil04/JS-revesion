@@ -27,14 +27,24 @@
 // console.log(result1)
 // console.log(result2)
 // console.log(result3)
+
 var n = 5;
 var p = 12;
+
 function square(n, p){
     var value = n * p;
     return value
-}
-
+} 
 var square1 = square(n ,p)
 var square2 = square(12, 14)
 console.log(square1)
 console.log(square2)
+
+/*
+1. Function can be assigned to a variable
+2.Function can be passed as an argument
+3. Function can be returned from another function
+4. Function can be stored in data structure like array, object etc.
+
+
+*/
