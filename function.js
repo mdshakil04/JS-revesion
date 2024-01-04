@@ -53,3 +53,12 @@ if(dayOfWeek == 31){
 }else{
     console.log("Wait for Weekend")
 }
+
+let money = 2000;
+if(money > 3000){
+    console.log("Wow! I will buy a Smartphone")
+}else if(money <= 2000){
+    console.log("I will buy Feature Phone")
+}else{
+    console.log("I will buy toy Phone")
+}
