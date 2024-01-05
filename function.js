@@ -11,12 +11,12 @@ let x = 5;
 let y = 6;
 x = y;
 y = 8;
-console.log(x)
-console.log(y)
+// console.log(x)
+// console.log(y)
 const skills = ["JS", "Python", "REACT"]
 
 skills.push("Firebase")
-console.log(skills)
+// console.log(skills)
 
 // Array Methods
 const fruits = ["Banana", "Mango", "Orange", "Apple", "Pineapple"]
@@ -24,9 +24,9 @@ const fruits = ["Banana", "Mango", "Orange", "Apple", "Pineapple"]
 const result1 = fruits.find((f) => f === "Orange");
 const result2 = fruits.filter((f) => f === "Orange" || f === "Apple");
 const result3 = fruits.slice(1, 4);
-console.log(result1)
-console.log(result2)
-console.log(result3)
+// console.log(result1)
+// console.log(result2)
+// console.log(result3)
 
 var n = 5;
 var p = 12;
@@ -37,8 +37,8 @@ function square(n, p){
 } 
 var square1 = square(n ,p)
 var square2 = square(12, 14)
-console.log(square1)
-console.log(square2)
+// console.log(square1)
+// console.log(square2)
 
 /*
     1. Function can be assigned to a variable
@@ -49,16 +49,21 @@ console.log(square2)
 let now = new Date();
 let dayOfWeek = now.getDate();
 if(dayOfWeek == 31){
-    console.log("Have a nice weekend!")
+    // console.log("Have a nice weekend!")
 }else{
-    console.log("Wait for Weekend")
+    // console.log("Wait for Weekend")
 }
 
 let money = 2000;
 if(money > 3000){
-    console.log("Wow! I will buy a Smartphone")
+    // console.log("Wow! I will buy a Smartphone")
 }else if(money <= 2000){
-    console.log("I will buy Feature Phone")
+    // console.log("I will buy Feature Phone")
 }else{
-    console.log("I will buy toy Phone")
+    // console.log("I will buy toy Phone")
 }
+let fool = ["Mango", "Orange", "Banana", "Apple", "Pineapple"]
+for (let i = 0 ; i < Array.length; i++){
+    console.log(fool)
+}
+// console.log(fool)
