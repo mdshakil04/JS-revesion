@@ -19,11 +19,11 @@ skills.push("Firebase")
 // console.log(skills)
 
 // Array Methods
-const fruits = ["Banana", "Mango", "Orange", "Apple", "Pineapple"]
+// const fruits = ["Banana", "Mango", "Orange", "Apple", "Pineapple"]
 
-const result1 = fruits.find((f) => f === "Orange");
-const result2 = fruits.filter((f) => f === "Orange" || f === "Apple");
-const result3 = fruits.slice(1, 4);
+// const result1 = fruits.find((f) => f === "Orange");
+// const result2 = fruits.filter((f) => f === "Orange" || f === "Apple");
+// const result3 = fruits.slice(1, 4);
 // console.log(result1)
 // console.log(result2)
 // console.log(result3)
@@ -62,8 +62,20 @@ if(money > 3000){
 }else{
     // console.log("I will buy toy Phone")
 }
-let fool = ["Mango", "Orange", "Banana", "Apple", "Pineapple"]
-for (let i = 0 ; i < Array.length; i++){
-    console.log(fool)
+let fruits = ["Mango", "Orange", "Banana", "Apple", "Pineapple"]
+console.log(fruits.toString())
+// for ( let fruit in fruits) {
+//     console.log(fruit)
+// }
+for ( let fruit of fruits) {
+    // console.log(fruit)
 }
 // console.log(fool)
+let pets = ["Cat", "Dog", "Parrot"];
+let wilds = ["Tiger", "Wolf", "Zebra"];
+ 
+// Creating new array by combining pets and wilds arrays
+let animals = pets.concat(wilds); 
+console.log(animals)
+console.log(pets)
+console.log(wilds)
