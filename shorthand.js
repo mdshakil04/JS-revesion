@@ -27,3 +27,28 @@ Always use const if the type should not be changed(Array and Objects)
 Only use let if you can not use const
 Only use var if you MUST support old browsers.
 */ 
+
+/*
+The keyword const is a little misleading.
+
+It does not define a constant value. It defines a constant reference to a value.
+
+Because of this you can NOT:
+
+Reassign a constant value
+Reassign a constant array
+Reassign a constant object
+But you CAN:
+
+Change the elements of constant array
+Change the properties of constant object
+*/
+
+// Difference Between var, let, const
+/**
+ * let and const have block scope
+ * let and const can not be redeclared
+ * let and const must be declared before use
+ * let and const does not bind to this
+ * let and const are not hoisted
+ */
