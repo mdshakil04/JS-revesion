@@ -20,3 +20,10 @@ function = Declares a function
 return = Exits a function
 try = Implements error handling to a block of statements
 */
+
+/*
+Always use const if the value should not be changed
+Always use const if the type should not be changed(Array and Objects)
+Only use let if you can not use const
+Only use var if you MUST support old browsers.
+*/ 
