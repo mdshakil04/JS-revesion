@@ -14,4 +14,6 @@ let physics = 99.50;
 let totalMarks = bangla + math + chemistry + biology + physics;
 let average = totalMarks / 5;
 average = average.toFixed(2);
+// If I converted result in decimal, the result changes in string. Then we have to change this in number
+average = parseFloat(average)
 console.log(average)    
