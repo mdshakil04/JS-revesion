@@ -13,5 +13,5 @@ let biology = 35.45;
 let physics = 99.50;
 let totalMarks = bangla + math + chemistry + biology + physics;
 let average = totalMarks / 5;
-
-console.log(averageFloat)
+average = average.toFixed(2);
+console.log(average)    
