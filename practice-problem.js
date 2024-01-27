@@ -19,3 +19,32 @@ console.log(fruitIndex)
  * 40 or above D grade
  * Write a program to find your and your friends grades using if-else.
  */
+var myScore = 85;
+var tomScore = 66;
+var janeScore = 96;
+var peterScore = 56;
+var johnScore = 40;
+
+if (myScore >= 80) {
+    console.log("I obtain A grade");
+} else if (myScore >= 60) {
+    console.log("I obtain B grade");
+} else if (myScore >= 50) {
+    console.log("I obtain C grade");
+} else if (myScore >= 40) {
+    console.log("I obtain D grade");
+} else {
+    console.log("Oh no! I failed");
+}
+
+if (tomScore >= 80) {
+    console.log("Tom obtains A grade");
+} else if (tomScore >= 60) {
+    console.log("Tom obtains B grade");
+} else if (tomScore >= 50) {
+    console.log("Tom obtains C grade");
+} else if (tomScore >= 40) {
+    console.log("Tom obtains D grade");
+} else {
+    console.log("Tom failed");
+}
