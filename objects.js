@@ -11,3 +11,7 @@ var propertiesName = Object.keys(mobile);
 console.log(propertiesName)
 var propertiesValues = Object.values(mobile)
 console.log(propertiesValues)
+// Set a value in objects key
+mobile.price = 20000;
+mobile['brand'] = "Techno"
+console.log(mobile)
