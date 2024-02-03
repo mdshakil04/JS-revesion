@@ -3,4 +3,4 @@ function milesToKm(miles){
     return kilometer;
 }
 const km = milesToKm(15)
-console.log(km)
+// console.log(km)
