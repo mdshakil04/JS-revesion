@@ -1,3 +1,4 @@
 const lyrics = "Amar Sonar Moyna Pakhi";
-const doesExist = lyrics.includes("Pakhi");
+const mainString = lyrics.toLowerCase()
+const doesExist = mainString.toLowerCase().includes("pakhi");
 console.log(doesExist)
