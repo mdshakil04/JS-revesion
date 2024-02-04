@@ -6,5 +6,5 @@ function sumOfNumber(number){
     }
     return sum
 }
-let sumNumber = sumOfNumber(20)
+let sumNumber = sumOfNumber(100)
 console.log(sumNumber)
