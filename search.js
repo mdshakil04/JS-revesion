@@ -10,3 +10,5 @@ const sliceWay = lyrics.slice(0, 3);
 // console.log(sliceWay)
 const atWay = lyrics.at(5);
 // console.log(atWay)
+const parts = lyrics.split(" ")
+console.log(parts)
