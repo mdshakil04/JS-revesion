@@ -1,3 +1,7 @@
+let num1 = 10;
+let num2 = 15;
 
-
-console.log(" access from closure.js")
+function sum(){
+    return num1 + num2;
+}
+console.log(sum())
