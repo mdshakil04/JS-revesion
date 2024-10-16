@@ -16,6 +16,7 @@ if(true){
 console.log(varVariable , "This is from Global scope, its from block scope")
 let letVariable = 15
 console.log(letVariable)
+// -------------------------------
 if(true){
     let letVariable = 51;
     // This letVariable is not accessible from the global scope
