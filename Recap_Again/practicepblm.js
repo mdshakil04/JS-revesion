@@ -18,3 +18,8 @@ const avaregeMarks = (totalMarks / 5).toFixed(2);
 // const finalAvvrg = avaregeMarks.toFixed(2)
 // const intMarks = Math.floor(averrageMarks)
 console.log(avaregeMarks)
+
+// Problem 3
+const input = 119;
+const remainder = input % 5
+console.log(remainder)
