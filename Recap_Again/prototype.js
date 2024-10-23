@@ -9,3 +9,5 @@ function Person(name, age){
 
 }
 const shakil = new Person("Shakil", 32);
+var f = function shakil () {};
+console.dir(f);
