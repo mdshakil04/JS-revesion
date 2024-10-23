@@ -23,3 +23,8 @@ console.log(avaregeMarks)
 const input = 119;
 const remainder = input % 5
 console.log(remainder)
+// Problem 4
+const a = isNaN('11')
+const b = isNaN(2-10);
+console.log(a)
+console.log(b)
