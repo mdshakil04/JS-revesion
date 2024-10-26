@@ -11,9 +11,10 @@ const hondaSP125 = 150000;
 //     console.log("I am happy with my present bike")
 // }
 // Ternary Operatons
-myTaka >= xtremePrice ? console.log("I will buy Hero Xtreme") : console.log("I will happy with my present bike");
+// myTaka >= xtremePrice ? console.log("I will buy Hero Xtreme") : console.log("I will happy with my present bike");
 
 let price = 500;
-const isPoor = false;
-price = isPoor ? 0 : price + 100
+const isPoor = true;
+// Ternary Operator
+isPoor === true ? price = 200  : price + 100
 console.log(price)
